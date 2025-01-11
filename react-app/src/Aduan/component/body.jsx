@@ -4,6 +4,8 @@ import Trendy from "../asset/trendy.svg";
 import Premium from "../asset/premium.svg";
 import Prices from "../asset/prices.svg";
 import Fast from "../asset/fast.svg";
+import Register from "../pages/register";
+import { Link } from "react-router";
 
 export default function Body() {
   return (
@@ -12,7 +14,7 @@ export default function Body() {
       <p className="welcome">
       Selamat datang di platform Aduan Masyarakat, tempat Anda dapat menyampaikan keluhan, saran, dan aspirasi dengan mudah. Kami hadir untuk mendengar suara Anda dan memastikan setiap laporan ditindaklanjuti dengan transparansi dan tanggung jawab.
       </p>
-      <BtnStart props="Buat Aduan" props2="Daftar" />
+      <Link to="/pages/register"><BtnStart props="Buat Aduan" props2="Daftar" /></Link>
  
         <ListAsk
           imgCard1={Trendy}
