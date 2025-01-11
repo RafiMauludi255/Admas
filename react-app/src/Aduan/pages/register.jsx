@@ -32,12 +32,15 @@ export default function Register() {
           },
         }
       );
+      // Tampil notif jika berhasil register
       setMessage("Daftar Akun Berhasil!");
+      // Diarahkan ke halaman login 1 detik
       setTimeout(() => {
         navigate("/pages/login");
       }, 1000);
     } catch (error) {
       console.log(error);
+      // Jika error register
       setMessage("Daftar gagal!, Silahkan coba lagi.");
     }
   };
@@ -48,6 +51,7 @@ export default function Register() {
       <div className="box">
         <h2>Register</h2>
         <div className="inputRegister">
+{/*   Form Register  */}
           <form onSubmit={handleRegister}>
             <p>Email</p>
             <input
@@ -74,6 +78,7 @@ export default function Register() {
             />
             <button>Register</button>
           </form>
+{/*   Notif hasil dari register */}
           {message && <p>{message}</p>}
         </div>
       </div>

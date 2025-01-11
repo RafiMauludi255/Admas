@@ -7,6 +7,7 @@ import Fast from "../asset/fast.svg";
 import Register from "../pages/register";
 import { Link } from "react-router";
 
+// Halaman Utama
 export default function Body() {
   return (
     <div className="body">
@@ -14,8 +15,14 @@ export default function Body() {
       <p className="welcome">
       Selamat datang di platform Aduan Masyarakat, tempat Anda dapat menyampaikan keluhan, saran, dan aspirasi dengan mudah. Kami hadir untuk mendengar suara Anda dan memastikan setiap laporan ditindaklanjuti dengan transparansi dan tanggung jawab.
       </p>
+<<<<<<< HEAD
       <Link to="/pages/register"><BtnStart props="Buat Aduan" props2="Daftar" /></Link>
  
+=======
+      <BtnStart props="Buat Aduan" props2="Daftar" />
+
+{/* Card */}
+>>>>>>> 85be342da4e09b9f5285905053b11dd2ebce438e
         <ListAsk
           imgCard1={Trendy}
           headCard1="Mudah Digunakan"

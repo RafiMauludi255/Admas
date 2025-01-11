@@ -24,8 +24,10 @@ export default function Login() {
       return;
     }
 
+    // Format data yang akan dikirim
     const data = { email, password };
 
+    // Post ke backend
     try {
       const response = await axios.post(
         "http://localhost:8001/api/login",
@@ -37,12 +39,14 @@ export default function Login() {
         }
       );
       if (response.data) {
+        // Notif jika berhasil login
         setMessage("Login Berhasil!");
+        // Diarahkan ke halaman Dashboard nantinya
         setTimeout(() => {
           navigate("/");
         }, 1000);
       } else {
-        setMessage("Login gagal! Periksa email atau password!");
+        setMessage("Login gagal!");
       }
     } catch (error) {
       console.error(error);
@@ -53,6 +57,7 @@ export default function Login() {
   return (
     <div className="bodyRegister">
       <Navbar />
+{/* Form Login  */}
       <form onSubmit={handleLogin}>
         <div className="box">
           <h2>Login</h2>
@@ -73,6 +78,7 @@ export default function Login() {
             />
             <button>Login</button>
           </div>
+{/*           Notif untuk Login */}
           {message && <p>{message}</p>}
         </div>
       </form>
