@@ -15,10 +15,10 @@ export default function Body() {
       <p className="welcome">
       Selamat datang di platform Aduan Masyarakat, tempat Anda dapat menyampaikan keluhan, saran, dan aspirasi dengan mudah. Kami hadir untuk mendengar suara Anda dan memastikan setiap laporan ditindaklanjuti dengan transparansi dan tanggung jawab.
       </p>
-<<<<<<< HEAD
+{/* Link ke halaman Register */}
       <Link to="/pages/register"><BtnStart props="Buat Aduan" props2="Daftar" /></Link>
  
-=======
+
       <BtnStart props="Buat Aduan" props2="Daftar" />
 
 {/* Card */}
