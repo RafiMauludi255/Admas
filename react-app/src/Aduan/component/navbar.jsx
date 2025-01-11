@@ -1,16 +1,9 @@
 import "../style/navbar.css";
-import { Link, Route, Routes } from "react-router";
+import { Link } from "react-router";
 import axios from "axios";
 
 export default function Navbar() {
-  // const aboutPages = axios
-  //   .get("http://localhost:8001/pages/about")
-  //   .then((response) => {
-  //     response.data;
-  //   })
-  //   .catch((error) => {
-  //     console.log(error);
-  //   });
+  
   return (
     <nav>
       <span>Admas</span>
