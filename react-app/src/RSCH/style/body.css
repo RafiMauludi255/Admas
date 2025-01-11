@@ -1,0 +1,100 @@
+.body {
+  text-align: center;
+  padding: 15% 15%;
+   background: #171717;
+    
+  .heading {
+    font-size: 76px;
+    font-weight: 800;
+    color: rgba(237, 237, 237, 0.904);
+  }
+  .welcome {
+    font-size: 20px;
+    color: rgb(136, 136, 136);
+    font-weight: 400;
+    padding: 5% 17%;
+
+    .highlight {
+      color: rgba(237, 237, 237, 0.945);
+      font-weight: 500;
+    }
+  }
+  .btnStart {
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 1%;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgba(237, 237, 237, 0.945);
+    color: rgb(10, 10, 10);
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    margin-top: 2%;
+  }
+  .btnStart:hover {
+    background: rgba(237, 237, 237, 0.733);
+  }
+  .btnLearn {
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(237, 237, 237, 0.945);
+    background-color: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.411);
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+  }
+  .btnLearn:hover {
+    background: rgba(237, 237, 237, 0.082);
+  }
+  .bodyListAsk {
+    margin: 15% 0;
+   
+    .headList {
+      font-size: 32px;
+      font-weight: 700;
+      color: rgba(237, 237, 237, 0.945);
+      .pHeadList {
+        font-size: 20px;
+        color: rgb(136, 136, 136);
+        font-weight: 400;
+      }
+    }
+    .flexCard {
+      display: flex;
+      margin-top: 5%;
+
+      .card {
+        width: 350px;
+        height: 400px;
+        background: transparent;
+        margin: 0 2%;
+        border-radius: 10px;
+        border: 1px solid rgba(128, 128, 128, 0.411);
+        overflow: hidden;
+        padding: 2%;
+        text-align: left;
+        transition: all ease-in-out 0.30s;
+        h2 {
+        color: rgba(237, 237, 237, 0.945);
+        }
+        img {
+          width: 100%;
+          height: 80%;
+        }
+        p {
+          color: rgb(136, 136, 136);
+        }
+      }
+      .card:hover {
+        box-shadow: 0 10px 30px rgba(237, 237, 237, 0.082),
+        0 10px 30px rgba(237, 237, 237, 0.041);
+      }
+    }
+  }
+}

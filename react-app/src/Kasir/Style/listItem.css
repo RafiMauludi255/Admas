@@ -1,0 +1,34 @@
+.list-item {
+  margin: -50% 0 0 65%;
+  float: right;
+  width: 350px;
+  height: 85vh;
+  position: fixed;
+  /* position: absolute; */
+  h2 {
+    color: #242424e1;
+  }
+  /* position: absolute; */
+  /* z-index: 1; */
+  /* margin: -65% 60%; */
+ 
+  footer {
+    padding-top: 10vh;
+  }
+
+  ul {
+    /* position: relative; */
+    padding: 5%;
+  }
+  button {
+    width: 300px;
+    height: 40px;
+    margin-top: 5%;
+    background: #639cff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 5px 10px #24242438;
+    cursor: pointer;
+  }
+}

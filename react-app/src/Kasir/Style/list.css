@@ -1,0 +1,26 @@
+.list {
+  width: 500px;
+  height: auto;
+  z-index: 1;
+  top: 15%;
+  left: 75%;
+  position: fixed;
+  /* flex-shrink: 0; */
+  display: block;
+
+  p {
+    margin: 3% 0;
+  }
+
+  button {
+    width: 150px;
+    height: 40px;
+    background: #639cff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 5%;
+    letter-spacing: 1px;
+  }
+}
