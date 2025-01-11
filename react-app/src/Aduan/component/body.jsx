@@ -17,8 +17,6 @@ export default function Body() {
       </p>
 {/* Link ke halaman Register */}
       <Link to="/pages/register"><BtnStart props="Buat Aduan" props2="Daftar" /></Link>
- 
-
       <BtnStart props="Buat Aduan" props2="Daftar" />
 
 {/* Card */}
