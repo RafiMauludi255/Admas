@@ -1,6 +1,5 @@
 import "../style/navbar.css";
 import { Link } from "react-router";
-import axios from "axios";
 
 export default function Navbar() {
   
