@@ -1,4 +1,4 @@
-// import img from "next/img";
+// Gambar belum update, copy dari projek lain
 
 export default function ListAsk({
     headCard1,
@@ -23,8 +23,11 @@ export default function ListAsk({
         </h1>
         <div className="flexCard">
           <div className="card">
+            {/* Gambar */}
             <img src={imgCard1} alt={imgCard1} />
+            {/* Heading */}
             <h2>{headCard1}</h2>
+            {/* Deskripsi */}
             <p>{dataCard1}</p>
           </div>
           <div className="card">
