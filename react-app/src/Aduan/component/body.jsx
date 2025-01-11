@@ -22,7 +22,7 @@ export default function Body() {
       <BtnStart props="Buat Aduan" props2="Daftar" />
 
 {/* Card */}
->>>>>>> 85be342da4e09b9f5285905053b11dd2ebce438e
+
         <ListAsk
           imgCard1={Trendy}
           headCard1="Mudah Digunakan"
