@@ -5,6 +5,7 @@ import Premium from "../asset/premium.svg";
 import Prices from "../asset/prices.svg";
 import Fast from "../asset/fast.svg";
 
+// Halaman Utama
 export default function Body() {
   return (
     <div className="body">
@@ -13,7 +14,8 @@ export default function Body() {
       Selamat datang di platform Aduan Masyarakat, tempat Anda dapat menyampaikan keluhan, saran, dan aspirasi dengan mudah. Kami hadir untuk mendengar suara Anda dan memastikan setiap laporan ditindaklanjuti dengan transparansi dan tanggung jawab.
       </p>
       <BtnStart props="Buat Aduan" props2="Daftar" />
- 
+
+{/* Card */}
         <ListAsk
           imgCard1={Trendy}
           headCard1="Mudah Digunakan"
